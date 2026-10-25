@@ -5,6 +5,9 @@
 
 特に以下を重視する。
 
+### 最優先
+
+- SDXL LoRA
 - Character Bleeding
 - Feature Bleeding
 - Identity Drift
@@ -12,12 +15,17 @@
 - Multi Character LoRA
 - LoRA Merging
 - LoRA Stacking
+
+### 高優先
+
 - Regional Conditioning
 - Attention Masking
-- SDXL
-- Flux
 - ComfyUI
 - Forge
+
+### 継続監視
+
+- Flux
 
 実運用で再現可能な手法を優先する。
 研究段階のみの手法は優先度を下げる。
@@ -46,7 +54,14 @@
 
 を優先する。
 
-RTX3060 12GBでも再現可能な手法を高く評価する。
+実運用環境
+
+- RTX3060 12GB
+- SDXL LoRA運用
+- ComfyUI
+- Forge
+
+上記環境で再現可能な情報を最優先とする。
 
 # ファイル出力
 
