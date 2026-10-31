@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470">
+<defs><style>text{font-family:'Segoe UI',sans-serif;fill:#172033}.title{font-size:30px;font-weight:700}.head{font-size:22px;font-weight:700}.body{font-size:18px}.note{font-size:15px}.box{rx:18;stroke-width:2}</style><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M1 1 L11 6 L1 11Z" fill="#596780"/></marker></defs>
+<rect width="1200" height="470" fill="#f5f7fb" rx="24"/><text x="48" y="58" class="title">12GB環境向け: まず小さく試してから本番へ</text>
+<rect x="55" y="120" width="235" height="205" class="box" fill="#e8f1ff" stroke="#6a92d6"/><text x="85" y="165" class="head">① 試作</text><text x="85" y="210" class="body">608×352程度</text><text x="85" y="245" class="body">短いクリップ</text><text x="85" y="280" class="note">プロンプト・構図確認</text>
+<path d="M305 220H365" stroke="#596780" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="390" y="120" width="235" height="205" class="box" fill="#fff4df" stroke="#d7a449"/><text x="420" y="165" class="head">② 条件固定</text><text x="420" y="210" class="body">seedを固定</text><text x="420" y="245" class="body">設定を一つずつ変更</text><text x="420" y="280" class="note">VRAM/RAMと時間を記録</text>
+<path d="M640 220H700" stroke="#596780" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="725" y="120" width="205" height="205" class="box" fill="#e7f6ee" stroke="#62a27c"/><text x="755" y="165" class="head">③ 選別</text><text x="755" y="210" class="body">動きと音声確認</text><text x="755" y="245" class="body">良い区間を採用</text><text x="755" y="280" class="note">失敗区間だけ再生成</text>
+<path d="M945 220H1000" stroke="#596780" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="1025" y="120" width="130" height="205" class="box" fill="#f3eafa" stroke="#9b77b5"/><text x="1044" y="165" class="head">④ 本番</text><text x="1044" y="210" class="body">解像度</text><text x="1044" y="240" class="body">尺を上げる</text><text x="1044" y="285" class="note">編集で接続</text>
+<text x="55" y="385" class="note">Turbo LoRAは配布元のsteps/CFG条件を確認。少ステップは速度優先の選択肢で、画質が常に同等とは限りません。</text><text x="55" y="420" class="note">動画生成は解像度とフレーム数の増加で計算時間が大きく伸びるため、一度に設定を全部上げないのがコツです。</text></svg>
