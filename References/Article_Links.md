@@ -1,16 +1,15 @@
 # 記事リンク受付
 
-記事URLをここに追加し、チャットで「リンク一覧からレポートを作成」と依頼してください。未処理リンクの記事を読み、要約と関連情報を調査して `Reports` に新しいレポートを作成します。
+記事URLをここに追加し、チャットで「リンク一覧からレポートを作成」と依頼してください。手順・調査方針・レポート構成は [Master/Article_Research_Report_Master.md](../Master/Article_Research_Report_Master.md) に従います。
 
 ## リンク一覧
 
 <!-- 下の形式で追記してください。1行に1件のURLを書けます。 -->
-https://x.com/business_tuna/status/2115939533267316912?s=09
-https://x.com/jjjContinue/status/2116002159502524471?s=09
-https://x.com/mapte_fireball/status/2116084737504915886?s=09
-https://x.com/mapte_fireball/status/2116084737504915886?s=09
-https://x.com/malariadx/status/2116141819159249040?s=09
-https://x.com/knowledgefxg/status/2115791727143653582?s=09
+https://x.com/business_tuna/status/2115939533267316912
+https://x.com/jjjContinue/status/2115770187991695565
+https://x.com/mapte_fireball/status/2116084737504915886
+https://x.com/malariadx/status/2116141819159249040
+https://x.com/knowledgefxg/status/2115791727143653582
 - URL: 
   - メモ（任意）: 
   - 状態: 未処理
