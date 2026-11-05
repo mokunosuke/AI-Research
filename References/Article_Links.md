@@ -4,25 +4,25 @@
 
 ## リンク一覧
 
-<!-- Pushbulletで2026-11-01（日本時間）に受信したリンク。古い対象URLは今回の取得分に置き換え。 -->
-[CottonMoss: MOSS-Imageマージモデル](https://x.com/aiaicreate/status/2116699897462452332?a=BWLhvFJ6xKaGlbQe4-Y&s=09)
-  - 受信: 12:17 JST
+<!-- Pushbulletで2026-11-04〜05（日本時間）に受信したリンク。重複URLは1件に統合。 -->
+[PIX-DT295をTVTestで使う手順書・ツールキット](https://x.com/ki873/status/2117648041079693779?a=iGUbJC9EPlmSQdj5WDA&s=09)
+  - 受信: 2026-11-05 10:32 JST
+  - 状態: 処理済み（本文確認。外部配布ファイルは未検証）
+[MiniMax H3 Seamless Anime VAEでアニメ塗りに](https://x.com/Phantom_202601/status/2117726302006558797?a=84iDsjMEJDXk52LCXgU&s=09)
+  - 受信: 2026-11-05 10:32 JST
   - 状態: 処理済み
-[MOSS-Imageの2ステップ生成・編集](https://x.com/aisearchio/status/2116618294090437055?a=sml6p-A8HB7GUldHK1s&s=09)
-  - 受信: 12:15 JST
+[MiniMax H3 Turbo LoRAのComfyUIワークフロー](https://x.com/PixelAigc/status/2117537769912414535?a=0ZUX0-oIJAdAUMKTQoo&s=20)
+  - 受信: 2026-11-04 05:01 JST（再受信: 11-05 05:13、05:14 JST。URLクエリ違いを含む）
   - 状態: 処理済み
-[ポーズ・衣装・顔の参照ライブラリ](https://x.com/alizeh_ai/status/2116545079733325935?a=FwQBd4LJWzZ65SslklY&s=09)
-  - 受信: 12:04 JST
-  - 状態: 処理済み
-[MiniMax H3 Character Sheet Designer](https://x.com/dextune/status/2116479903575245228?a=vwM9ozkUgVfyJQNcMXs&s=09)
-  - 受信: 12:02 JST
+[Museから自宅PCのローカルGPUで画像生成](https://x.com/jjjContinue/status/2117200673293156554)
+  - 受信: 2026-11-04 04:59 JST（再受信: 05:11、11-05 05:13 JST）
   - 状態: 処理済み
 
 ## 処理ルール
 
 - 記事の要点、背景、関連する一次情報や追加情報、実用上の示唆をまとめます。
 - 記事本文と関連情報を区別し、出典URLをレポートに記載します。
-- 出力先は Reports/YYYY-MM-DD_記事テーマ_Report.md とします。テーマは内容に合わせて短く付けます。
-- レポート作成後、該当項目の状態を 処理済み に更新します。
+- 出力先は `Reports/YYYY-MM-DD_記事テーマ_Report.md` とします。テーマは内容に合わせて短く付けます。
+- レポート作成後、該当項目の状態を `処理済み` に更新します。
 - Pushbullet側にタイトルがない場合は、Xtracticleで取得した投稿内容からタイトルを付けます。本文を確認できない場合は推測せず「本文未取得」と記載します。
 - ページを読めない場合やURLが不足している場合は、推測せずその旨を報告します。
